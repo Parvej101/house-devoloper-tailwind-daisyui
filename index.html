@@ -26,6 +26,10 @@
             "primary-1": "#E76F51",
            
           },
+          backgroundImage: {
+        'input-bg': "url('/assets/bg.jpg')",
+        
+      },
         },
       },
     };
@@ -305,7 +309,7 @@
   </div>
   <!-- Portfolio imgaes -->
 
-      <div class="grid lg:grid-cols-12 gap-11">  <!-- parent div for grid -->
+      <div class="grid lg:grid-cols-12 gap-11 items-center">  <!-- parent div for grid -->
 
         <!-- Images 1 -->
         <div class="flex gap-6 flex-col lg:flex-row lg:col-span-8 col-span-12 shadow-md p-6 rounded-2xl w-4/5 lg:w-full items-center">
@@ -361,6 +365,48 @@
     
     </div>
 </section>
+
+<!-- Discuss Input Section -->
+  <section class=" mt-4 w-full bg-cover bg-input-bg bg-no-repeat ">
+    <div class="pt-24 pb-24 w-4/6 mx-auto">
+      <div class="text-center lg:mb-16 mb-8">
+        <button class="btn bg-[#ABEF5F80] font-bold rounded-3xl mb-6 ">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          Let's Connect</button>
+          
+            <h1 class="text-4xl font-extrabold mb-6">Let’s Discuss Next Project</h1>
+          <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      </div>
+      <!-- Input field -->
+
+      <div class="grid grid-cols-12 grid-rows-12 gap-6"> <!--Grid container-->
+           <div class="rounded-[64px] py-3 px-6 bg-white col-span-6 row-span-2"><input placeholder="First Name*" type="text" required></div>
+
+           <div class="rounded-[64px] py-3 px-6 bg-white col-span-6 row-span-2"><input placeholder="Last Name*" type="text" required></div>
+
+           <div class="rounded-[64px] py-3 px-6 bg-white col-span-6 row-span-2"><input placeholder="Phone Number*" type="tel" required></div>
+
+           <div class="rounded-[64px] py-3 px-6 bg-white col-span-6 row-span-2 "><input placeholder="Email Number*" type="email" required></div>
+
+           <div class="rounded-[32px] py-3 px-6 bg-white col-span-12 row-span-8"><input placeholder="Write your massage here" type="text"></div>
+
+   <button class="rounded-[64px] py-3 px-6 bg-[#ABEF5F] col-span-12 row-span-2 flex gap-3 items-center justify-center font-extrabold">Send Mail <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" rotate-180 bg-black size-6 font-bold text-white p-2 rounded-full">
+    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 4.5-15 15m0 0h11.25m-11.25 0V8.25" />
+  </svg></button>
+            
+           
+            
+      </div> 
+
+
+
+
+
+    </div>
+  </section>
+
 </main>
 
     <footer>
